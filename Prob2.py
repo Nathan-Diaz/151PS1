@@ -6,26 +6,23 @@
 # Estimate for time spent (in hrs)?: 1
 #====================================================
 
-# Define negate here
-# add "un" to string
+# Define negate here: add "un" to the input
 def negate(s):
-    n1 = 'un'
-    n2 = s
-    return n1 + n2
+    n = 'un'
+    j = s
+    return n + j
 
-# Define intensify here
-# add "plus" to string
+# Define intensify here: add "plus" to the input
 def intensify(s):
-    n1 = 'plus'
-    n2 = s
-    return n1 + n2
+    n = 'plus'
+    j = s
+    return n + j
 
-# Define reinforce here
-# add "double" to string
+# Define reinforce here: add "double" to the input
 def reinforce(s):
-    n1 = 'double'
-    n2 = s
-    return n1 + n2
+    n = 'double'
+    j = s
+    return n + j
 
 if __name__ == '__main__':
     # I've included the example in the description here for you to test against!
